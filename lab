@@ -1,0 +1,39 @@
+#!/bin/bash
+
+# Number of directories to create
+TOTAL_DIRS=1000
+
+# Base directory where the random directories will be created
+BASE_DIR="random_dirs"
+
+# Create the base directory
+mkdir -p "$BASE_DIR"
+
+# Function to generate a random directory structure
+generate_random_dirs() {
+  local parent_dir=$1
+  local depth=$2
+
+  # Create a random number of subdirectories (between 1 and 5)
+  local num_subdirs=$((RANDOM % 5 + 1))
+
+  for ((i=0; i<num_subdirs; i++)); do
+    # Generate a unique directory name
+    local dir_name=$(mktemp -u XXXXX)
+
+    # Create the subdirectory
+    local new_dir="$parent_dir/$dir_name"
+    mkdir -p "$new_dir"
+
+    # Increment the global directory counter
+    ((TOTAL_DIRS--))
+
+    # Recursively create more subdirectories if the total count hasn't been reached
+    if ((TOTAL_DIRS > 0)); then
+      generate_random_dirs "$new_dir" $((depth + 1))
+    fi
+  done
+}
+
+# Start generating directories from the base directory
+generate_random_dirs "$BASE_DIR" 0
