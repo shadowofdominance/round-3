@@ -1,7 +1,7 @@
 
 ---
 
-Welcome to the realm of Trinity, where your journey begins. Hidden within the shadows of your home directory lies a dormant file, containing the wisdom you seek among a sea of words. Your task is to uncover the name of the Chosen One, the actor who embodied our savior in the world of cinema. Search diligently for `Keanu_Reeves` within the file. Once discovered, your journey does not end there. Transform this name into an ancient code known as Base58. This transformation will reveal the password you need to access the next guardian, Morpheus. The encoded key will guide you forward. Good luck, Seeker. The truth is out there, waiting for you to uncover it.
+Welcome to the realm of trinity, where your journey begins. Hidden within the shadows of your home directory lies a dormant file, containing the wisdom you seek among a sea of words. Your task is to uncover the name of the Chosen One, the actor who embodied our savior in the world of cinema. Search diligently for `Keanu_Reeves` within the file. Once discovered, your journey does not end there. Transform this name into an ancient code known as Base58. This transformation will reveal the password you need to access the next guardian, morpheus. The encoded key will guide you forward. Good luck, Seeker. The truth is out there, waiting for you to uncover it.
 
 ---
 
