@@ -1,0 +1,28 @@
+sudo chown morpheus:morpheus /home/morpheus/Documents/.Imp/bluepill.py
+sudo chmod 700 /home/morpheus/Documents/.Imp/bluepill.py
+
+
+sudo nano /etc/systemd/system/listener.service
+
+
+[Unit]
+Description=Python Listener Service
+After=network.target
+
+
+[Service]
+ExecStart=/usr/bin/python3 /home/morpheus/Documents/.Imp/bluepill.py
+User=morpheus
+Restart=always
+
+
+[Install]
+WantedBy=multi-user.target
+
+
+sudo systemctl daemon-reload
+sudo systemctl enable listener.service
+sudo systemctl start listener.service
+
+
+sudo chattr +i /home/morpheus/Documents/.Imp/bluepill.py
