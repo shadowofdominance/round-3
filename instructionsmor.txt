@@ -1,6 +1,6 @@
 
 ---
 
-Welcome to the domain of Morpheus, where the next phase of your quest unfolds. A program runs silently in the background, waiting for the password of Trinity. To proceed, you must interact with this program, which listens locally on bridge 30000. Provide it with the password you used to access Trinity, and in return, it will reveal the secret key to Oracle. This exchange will guide you to the wisdom of the Oracle, the next step in your journey. Remember, the path is not always straightforward, but with determination, you will find the way. Proceed with caution, and may the knowledge be with you.
+Welcome to the domain of morpheus, where the next phase of your quest unfolds. A program runs silently in the background, waiting for the password of trinity. To proceed, you must interact with this program, which listens locally on bridge 30000.Use the cat in order to deliver the password of trinity and in return, it will reveal the secret key to oracle. This exchange will guide you to the wisdom of the oracle, the next step in your journey. Remember, the path is not always straightforward, but with determination, you will find the way. Proceed with caution, and may the knowledge be with you.
 
 ---
