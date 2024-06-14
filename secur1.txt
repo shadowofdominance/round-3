@@ -26,3 +26,8 @@ sudo systemctl start listener.service
 
 
 sudo chattr +i /home/morpheus/Documents/.Imp/bluepill.py
+
+
+sudo touch /var/log/listener.log
+sudo chown morpheus:morpheus /var/log/listener.log
+sudo chmod 600 /var/log/listener.log
